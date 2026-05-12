@@ -1,0 +1,104 @@
+/* Ren color scheme - Dark theme with indigo accent */
+
+:root {
+  /* Background colors */
+  --ren-bg-primary: #0f1018;
+  --ren-bg-secondary: #16192a;
+  --ren-bg-tertiary: #1a1d2e;
+  --ren-bg-header: #0f1018;
+  --ren-bg-message-user: #1a1d2e;
+  --ren-bg-message-ai: #16192a;
+  
+  /* Text colors */
+  --ren-text-primary: #e5e7eb;
+  --ren-text-secondary: #9ca3af;
+  --ren-text-tertiary: #6b7280;
+  
+  /* Border colors */
+  --ren-border: #2d3250;
+  --ren-border-subtle: #1a1d2e;
+  
+  /* Shadow */
+  --ren-shadow: rgba(0, 0, 0, 0.3);
+  --ren-shadow-accent: rgba(79, 70, 229, 0.2);
+  
+  /* Accent color */
+  --accent-color: #4f46e5;
+  --accent-hover: #6366f1;
+  --accent-muted: rgba(79, 70, 229, 0.1);
+  
+  /* Model badge colors */
+  --badge-claude: #4f46e5;
+  --badge-llama: #10b981;
+  --badge-mistral: #f59e0b;
+  
+  /* Base font size (adjustable) */
+  --base-font-size: 16px;
+}
+
+/* En móvil, fuente base más pequeña */
+@media (max-width: 640px) {
+  :root {
+    --base-font-size: 14px;
+  }
+}
+
+/* Background utilities */
+.ren-bg-primary {
+  background-color: var(--ren-bg-primary);
+}
+
+.ren-bg-secondary {
+  background-color: var(--ren-bg-secondary);
+}
+
+.ren-bg-tertiary {
+  background-color: var(--ren-bg-tertiary);
+}
+
+.ren-bg-header {
+  background-color: var(--ren-bg-header);
+}
+
+.ren-bg-message-user {
+  background-color: var(--ren-bg-message-user);
+}
+
+.ren-bg-message-ai {
+  background-color: var(--ren-bg-message-ai);
+}
+
+/* Text utilities */
+.ren-text-primary {
+  color: var(--ren-text-primary);
+}
+
+.ren-text-secondary {
+  color: var(--ren-text-secondary);
+}
+
+.ren-text-tertiary {
+  color: var(--ren-text-tertiary);
+}
+
+/* Border utilities */
+.ren-border {
+  border-color: var(--ren-border);
+}
+
+.ren-border-subtle {
+  border-color: var(--ren-border-subtle);
+}
+
+/* Accent utilities */
+.ren-accent {
+  color: var(--accent-color);
+}
+
+.ren-accent-bg {
+  background-color: var(--accent-color);
+}
+
+.ren-accent-border {
+  border-color: var(--accent-color);
+}
